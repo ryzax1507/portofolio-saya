@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahrisal Basri | Neo-Brutalism</title>
+    <!-- Google Fonts: Poppins for heavy headings like the reference website -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="grid-background"></div>
+
+    <!-- Floating Pill Navbar -->
+    <nav class="navbar">
+        <div class="nav-brand">Ryzax.</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Projects</a>
+        </div>
+        <a href="#contact" class="btn-black">Let's Talk</a>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="status-pill">
+                <span class="dot"></span> AVAILABLE FOR WORK
+            </div>
+
+            <div class="hero-typography">
+                <div class="text-line">BEYOND</div>
+                <div class="text-line">
+                    <span class="sticker-text bg-yellow text-pink tilted">MODERN</span>
+                </div>
+                <div class="text-line outline-text">EXPERIENCE.</div>
+            </div>
+
+            <p class="hero-desc">
+                Hi! I'm Fahrisal Basri, a passionate student focusing on <strong>Web Development</strong> and
+                <strong>Server Administration</strong>. Let's build something cool.
+            </p>
+
+            <!-- Floating Stickers Background -->
+            <div class="floating-sticker sticker-1" style="--rot: -10deg;" title="PHP"><i class="fab fa-php"></i></div>
+            <div class="floating-sticker sticker-2" style="--rot: 15deg;" title="Laravel"><i class="fab fa-laravel"></i>
+            </div>
+            <div class="floating-sticker sticker-3" style="--rot: 5deg;" title="CodeIgniter 4"><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/codeigniter.svg" width="40" height="40"
+                    alt="CodeIgniter 4"></div>
+            <div class="floating-sticker sticker-4" style="--rot: -5deg;" title="MySQL"><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg" width="40" height="40"
+                    alt="MySQL"></div>
+            <div class="floating-sticker sticker-5" style="--rot: 20deg;" title="Debian"><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/debian.svg" width="40" height="40"
+                    alt="Debian"></div>
+            <div class="floating-sticker sticker-6" style="--rot: -15deg;" title="Proxmox"><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/proxmox.svg" width="40" height="40"
+                    alt="Proxmox"></div>
+            <div class="floating-sticker sticker-7" style="--rot: 10deg;" title="MikroTik"><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mikrotik.svg" width="40" height="40"
+                    alt="MikroTik"></div>
+            <div class="floating-sticker sticker-8" style="--rot: -8deg;" title="Cisco"><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cisco.svg" width="40" height="40"
+                    alt="Cisco"></div>
+        </section>
+
+        <!-- Profile / About Section -->
+        <section id="about" class="about">
+            <div class="neo-card flex-card bg-light-blue">
+                <div class="profile-img-wrapper">
+                    <!-- KOMENTAR UNTUK USER: Ganti path src di bawah dengan foto Anda -->
+                    <img src="img\profil.jpeg">
+                    <div class="tag-sticker">Fahrisal Basri</div>
+                </div>
+                <div class="about-text">
+                    <h2><i class="fas fa-bolt"></i> ABOUT ME</h2>
+                    <p>I am highly enthusiastic about diving deep into the world of Web Development and Server
+                        Administration. I love solving problems through code and building reliable infrastructures.</p>
+
+                    <div class="skills-wrapper">
+                        <span class="pill-tag">PHP (85%)</span>
+                        <span class="pill-tag">HTML (90%)</span>
+                        <span class="pill-tag">CSS(85%)</span>
+                        <span class="pill-tag">MySQL (85%)</span>
+                        <span class="pill-tag">Laravel 13 (80%)</span>
+                        <span class="pill-tag">CodeIgniter 4 (90%)</span>
+                        <span class="pill-tag">Debian (85%)</span>
+                        <span class="pill-tag">Proxmox (75%)</span>
+                        <span class="pill-tag">Cisco (80%)</span>
+                        <span class="pill-tag">Mikrotik (80%)</span>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="work" class="projects">
+            <div class="section-badge bg-pink">MY PROJECTS</div>
+            <div class="project-grid">
+
+                <!-- Project 1 -->
+                <div class="neo-card project-card bg-white">
+                    <div class="img-container">
+                        <img src="img/absensi/dashboard.png" alt="Absensi Sekolah">
+                        <span class="floating-tag">CodeIgniter 4</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sistem Absensi Sekolah</h3>
+                        <p>Aplikasi absensi dengan fitur cetak laporan dan rekap absen otomatis.</p>
+                        <a href="javascript:void(0)" class="btn-black small" onclick="openModal('absensiModal')">View
+                            Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="neo-card project-card bg-white">
+                    <div class="img-container">
+                        <!-- KOMENTAR UNTUK USER: Ganti dengan screenshot proyek E-Report -->
+                        <img src="images/project-2.jpg" alt="E-Report">
+                        <span class="floating-tag bg-yellow" style="color: #000;">Laravel 13</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Aplikasi E-Report</h3>
+                        <p>Sistem pelaporan nilai elektronik berbasis web.</p>
+                        <a href="javascript:void(0)" class="btn-black small">View Project</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="neo-card contact-card bg-yellow">
+                <div class="smiley-sticker"><i class="fas fa-smile-beam"></i></div>
+                <h2 class="huge-text">GOT A PROJECT?</h2>
+                <div class="socials">
+                    <a href="https://github.com/ryzax1507" target="_blank" class="btn-black"><i
+                            class="fab fa-github"></i> GITHUB</a>
+                    <a href="https://wa.me/6287884631307" target="_blank" class="btn-black"><i
+                            class="fab fa-whatsapp"></i> WHATSAPP</a>
+                    <a href="https://www.instagram.com/157faaa?igsh=MWhzdWFoZ3VkbHVhYg==" target="_blank"
+                        class="btn-black"><i class="fab fa-instagram"></i> INSTAGRAM</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Fahrisal Basri.</p>
+    </footer>
+
+    <!-- Project 1 Modal -->
+    <div id="absensiModal" class="modal-overlay">
+        <div class="modal-content neo-card bg-white">
+            <div class="modal-header">
+                <h2>Sistem Absensi Sekolah</h2>
+                <button class="close-btn btn-black small" onclick="closeModal('absensiModal')"><i
+                        class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <img src="img/absensi/dashboard.png" alt="Dashboard">
+                <img src="img/absensi/generate.png" alt="Generate QR">
+                <img src="img/absensi/id-card.png" alt="ID Card">
+                <img src="img/absensi/qr-code.png" alt="QR Code Scanner">
+                <img src="img/absensi/scan.png" alt="Scan Page">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
