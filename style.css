@@ -374,6 +374,12 @@ body {
     font-size: 1.1rem;
 }
 
+.project-actions {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
 /* Contact */
 .contact-card {
     text-align: center;
