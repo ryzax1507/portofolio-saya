@@ -60,3 +60,13 @@ window.onclick = function(event) {
         document.body.style.overflow = 'auto';
     }
 }
+
+// Autoplay Background Music fix for modern browsers
+document.addEventListener('click', function() {
+    const bgMusic = document.getElementById('bgMusic');
+    if (bgMusic && bgMusic.paused) {
+        bgMusic.play().catch(error => {
+            console.log("Audio play failed:", error);
+        });
+    }
+}, { once: true });
